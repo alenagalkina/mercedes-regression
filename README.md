@@ -8,6 +8,12 @@ The purpose is to compare several approaches including AutoML with baseline solu
 
 This is a regression task - the goal is to predict the time required for a Mercedes-Benz car to pass testing.
 
+## Results
 I compared baseline (PCA + FastICA + XGBoost) with AutoML (TPOTRegressor), ElasticNetCV and RidgeCV.
 
 ElasticNetCV showed best results according to R^2 on the test set.
+
+## Technologies
+- Python (pandas, sklearn)
+- TPOT
+- XGBoost
